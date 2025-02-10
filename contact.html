@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Pawel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="ui fixed inverted menu">
+        <div class="ui container">
+            <a href="index.html" class="header item">Pawel Jaglarz</a>
+            <div class="right menu">
+                <a href="index.html" class="item">HOME</a>
+                <a href="about.html" class="item">ABOUT</a>
+                <a href="projects.html" class="item">PROJECTS</a>
+                <a href="contact.html" class="item">CONTACT</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="ui container">
+            <h1 class="ui header">Contact Me</h1>
+            <div class="ui centered grid">
+                <!-- Contact Form -->
+                <div class="ten wide computer twelve wide tablet sixteen wide mobile column">
+                    <div class="ui segment">
+                        <h2 class="ui header">Get in Touch</h2>
+                        <form class="ui form" action="https://formspree.io/f/mpwqjzdk" method="POST">
+                            <div class="field">
+                                <label>Name</label>
+                                <input type="text" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="field">
+                                <label>Email</label>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="field">
+                                <label>Message</label>
+                                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                            </div>
+                            <button class="ui primary button" type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="six wide computer four wide tablet sixteen wide mobile column">
+                    <div class="ui segment">
+                        <h2 class="ui header">Contact Information</h2>
+                        <div class="ui list">
+                            <div class="item">
+                                <i class="envelope icon"></i>
+                                <div class="content">
+                                    <a href="paweljaglarz16@gmail.com">paweljaglarz16@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <i class="linkedin icon"></i>
+                                <div class="content">
+                                    <a href="https://www.linkedin.com/in/pawel-jaglarz/" target="_blank">LinkedIn</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <i class="github icon"></i>
+                                <div class="content">
+                                    <a href="https://github.com/Pav20097569" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
